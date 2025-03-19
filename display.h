@@ -85,7 +85,7 @@
 class Display
 {    
     protected:
-        static const byte* numbers[10];
+        // static const byte* numbers[10];
         static const byte* ASCII[256]; // Declaration of ASCII
         static byte convertCharToSegments(char c);
         static char* convertIntToBytes(const int16_t number, bool left_zeros=false);
